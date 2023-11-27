@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42AD085D2B14E9D700AA9451 /* efiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD085C2B14E9D700AA9451 /* efiController.swift */; };
 		42C249612B14CAFC00926D60 /* macintAllApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C249602B14CAFC00926D60 /* macintAllApp.swift */; };
 		42C249632B14CAFC00926D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C249622B14CAFC00926D60 /* ContentView.swift */; };
 		42C249652B14CAFE00926D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C249642B14CAFE00926D60 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42AD085C2B14E9D700AA9451 /* efiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = efiController.swift; sourceTree = "<group>"; };
 		42C2495D2B14CAFC00926D60 /* macintAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macintAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C249602B14CAFC00926D60 /* macintAllApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macintAllApp.swift; sourceTree = "<group>"; };
 		42C249622B14CAFC00926D60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		42C2495F2B14CAFC00926D60 /* macintAll */ = {
 			isa = PBXGroup;
 			children = (
+				42C2498B2B14CD8E00926D60 /* Modules */,
 				42C249602B14CAFC00926D60 /* macintAllApp.swift */,
 				42C249622B14CAFC00926D60 /* ContentView.swift */,
 				42C249642B14CAFE00926D60 /* Assets.xcassets */,
@@ -127,6 +130,14 @@
 				42C2497E2B14CAFE00926D60 /* macintAllUITestsLaunchTests.swift */,
 			);
 			path = macintAllUITests;
+			sourceTree = "<group>";
+		};
+		42C2498B2B14CD8E00926D60 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				42AD085C2B14E9D700AA9451 /* efiController.swift */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42C249632B14CAFC00926D60 /* ContentView.swift in Sources */,
+				42AD085D2B14E9D700AA9451 /* efiController.swift in Sources */,
 				42C249612B14CAFC00926D60 /* macintAllApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macintAll/macintAll.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -448,6 +461,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macintAll/macintAll.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;

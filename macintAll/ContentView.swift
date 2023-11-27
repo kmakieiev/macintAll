@@ -8,12 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var password: String = ""
+    @State private var confirmation: String = ""
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack{
+            VStack{
+                Text("EFI Partition: \(findEfi())")
+                
+                HStack{
+                    Button("Mount") {
+                        mountPartition(partitionID: findEfi())
+                    }
+                    Button("Unmount") {
+                        unmountPartition(partitionID: findEfi())
+                    }
+                }
+            }
+            
         }
         .padding()
     }
