@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422D02E92B17A6360090891A /* windowsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D02E82B17A6360090891A /* windowsController.swift */; };
+		422D02ED2B17C61D0090891A /* SpecsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D02EC2B17C61D0090891A /* SpecsView.swift */; };
+		422D02EF2B17C6800090891A /* ToolBarObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D02EE2B17C6800090891A /* ToolBarObjects.swift */; };
+		422D02F12B17C6C40090891A /* hardwareDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D02F02B17C6C40090891A /* hardwareDetector.swift */; };
+		422D02F32B17C7090090891A /* scriptsFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D02F22B17C7090090891A /* scriptsFinder.swift */; };
+		422D02FB2B17C7C50090891A /* ramspecs.py in Resources */ = {isa = PBXBuildFile; fileRef = 422D02F92B17C7C50090891A /* ramspecs.py */; };
+		422D02FC2B17C7C50090891A /* ssdspecs.py in Resources */ = {isa = PBXBuildFile; fileRef = 422D02FA2B17C7C50090891A /* ssdspecs.py */; };
+		422D03002B17C8E80090891A /* HardwareListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D02FF2B17C8E80090891A /* HardwareListView.swift */; };
+		422D03022B17C9030090891A /* SoftwareListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D03012B17C9030090891A /* SoftwareListView.swift */; };
+		422D03072B17C9A60090891A /* CPUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D03062B17C9A60090891A /* CPUView.swift */; };
+		422D03092B17C9C80090891A /* GraphicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D03082B17C9C80090891A /* GraphicView.swift */; };
+		422D030B2B17CA3A0090891A /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D030A2B17CA3A0090891A /* NetworkView.swift */; };
+		422D030D2B17CA550090891A /* RAMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D030C2B17CA550090891A /* RAMView.swift */; };
+		422D030F2B17CA710090891A /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D030E2B17CA710090891A /* ScreenView.swift */; };
+		422D03112B17CA8D0090891A /* StorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D03102B17CA8C0090891A /* StorageView.swift */; };
+		422D03132B17CACF0090891A /* SystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D03122B17CACF0090891A /* SystemView.swift */; };
+		4238BF9D2B1776BF002A47FE /* ConfigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4238BF9C2B1776BF002A47FE /* ConfigureView.swift */; };
+		4238BF9F2B1776C9002A47FE /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4238BF9E2B1776C9002A47FE /* CreateView.swift */; };
+		4238BFA12B178834002A47FE /* modelDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4238BFA02B178834002A47FE /* modelDetector.swift */; };
 		42AD085D2B14E9D700AA9451 /* efiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD085C2B14E9D700AA9451 /* efiController.swift */; };
 		42C249612B14CAFC00926D60 /* macintAllApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C249602B14CAFC00926D60 /* macintAllApp.swift */; };
 		42C249632B14CAFC00926D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C249622B14CAFC00926D60 /* ContentView.swift */; };
@@ -35,6 +54,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		422D02E82B17A6360090891A /* windowsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = windowsController.swift; sourceTree = "<group>"; };
+		422D02EC2B17C61D0090891A /* SpecsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecsView.swift; sourceTree = "<group>"; };
+		422D02EE2B17C6800090891A /* ToolBarObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarObjects.swift; sourceTree = "<group>"; };
+		422D02F02B17C6C40090891A /* hardwareDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hardwareDetector.swift; sourceTree = "<group>"; };
+		422D02F22B17C7090090891A /* scriptsFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scriptsFinder.swift; sourceTree = "<group>"; };
+		422D02F92B17C7C50090891A /* ramspecs.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ramspecs.py; sourceTree = "<group>"; };
+		422D02FA2B17C7C50090891A /* ssdspecs.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ssdspecs.py; sourceTree = "<group>"; };
+		422D02FF2B17C8E80090891A /* HardwareListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardwareListView.swift; sourceTree = "<group>"; };
+		422D03012B17C9030090891A /* SoftwareListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareListView.swift; sourceTree = "<group>"; };
+		422D03062B17C9A60090891A /* CPUView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUView.swift; sourceTree = "<group>"; };
+		422D03082B17C9C80090891A /* GraphicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicView.swift; sourceTree = "<group>"; };
+		422D030A2B17CA3A0090891A /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
+		422D030C2B17CA550090891A /* RAMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMView.swift; sourceTree = "<group>"; };
+		422D030E2B17CA710090891A /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		422D03102B17CA8C0090891A /* StorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageView.swift; sourceTree = "<group>"; };
+		422D03122B17CACF0090891A /* SystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemView.swift; sourceTree = "<group>"; };
+		4238BF9C2B1776BF002A47FE /* ConfigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureView.swift; sourceTree = "<group>"; };
+		4238BF9E2B1776C9002A47FE /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		4238BFA02B178834002A47FE /* modelDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelDetector.swift; sourceTree = "<group>"; };
 		42AD085C2B14E9D700AA9451 /* efiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = efiController.swift; sourceTree = "<group>"; };
 		42C2495D2B14CAFC00926D60 /* macintAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macintAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C249602B14CAFC00926D60 /* macintAllApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macintAllApp.swift; sourceTree = "<group>"; };
@@ -74,6 +112,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		422D02F42B17C71E0090891A /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				422D02F92B17C7C50090891A /* ramspecs.py */,
+				422D02FA2B17C7C50090891A /* ssdspecs.py */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		422D02FD2B17C7FE0090891A /* SpecsViews */ = {
+			isa = PBXGroup;
+			children = (
+				422D02EC2B17C61D0090891A /* SpecsView.swift */,
+				422D02EE2B17C6800090891A /* ToolBarObjects.swift */,
+				422D02FF2B17C8E80090891A /* HardwareListView.swift */,
+				422D03012B17C9030090891A /* SoftwareListView.swift */,
+				422D03032B17C9620090891A /* DataViews */,
+			);
+			path = SpecsViews;
+			sourceTree = "<group>";
+		};
+		422D03032B17C9620090891A /* DataViews */ = {
+			isa = PBXGroup;
+			children = (
+				422D03042B17C9700090891A /* HardwareViews */,
+				422D03052B17C97E0090891A /* SoftwareViews */,
+			);
+			path = DataViews;
+			sourceTree = "<group>";
+		};
+		422D03042B17C9700090891A /* HardwareViews */ = {
+			isa = PBXGroup;
+			children = (
+				422D03062B17C9A60090891A /* CPUView.swift */,
+				422D03082B17C9C80090891A /* GraphicView.swift */,
+				422D030A2B17CA3A0090891A /* NetworkView.swift */,
+				422D030C2B17CA550090891A /* RAMView.swift */,
+				422D030E2B17CA710090891A /* ScreenView.swift */,
+				422D03102B17CA8C0090891A /* StorageView.swift */,
+			);
+			path = HardwareViews;
+			sourceTree = "<group>";
+		};
+		422D03052B17C97E0090891A /* SoftwareViews */ = {
+			isa = PBXGroup;
+			children = (
+				422D03122B17CACF0090891A /* SystemView.swift */,
+			);
+			path = SoftwareViews;
+			sourceTree = "<group>";
+		};
+		4238BF9B2B177686002A47FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42C249622B14CAFC00926D60 /* ContentView.swift */,
+				4238BF9C2B1776BF002A47FE /* ConfigureView.swift */,
+				4238BF9E2B1776C9002A47FE /* CreateView.swift */,
+				422D02FD2B17C7FE0090891A /* SpecsViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		42C249542B14CAFC00926D60 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +197,10 @@
 		42C2495F2B14CAFC00926D60 /* macintAll */ = {
 			isa = PBXGroup;
 			children = (
+				4238BF9B2B177686002A47FE /* Views */,
 				42C2498B2B14CD8E00926D60 /* Modules */,
+				422D02F42B17C71E0090891A /* Scripts */,
 				42C249602B14CAFC00926D60 /* macintAllApp.swift */,
-				42C249622B14CAFC00926D60 /* ContentView.swift */,
 				42C249642B14CAFE00926D60 /* Assets.xcassets */,
 				42C249692B14CAFE00926D60 /* macintAll.entitlements */,
 				42C249662B14CAFE00926D60 /* Preview Content */,
@@ -136,6 +237,10 @@
 			isa = PBXGroup;
 			children = (
 				42AD085C2B14E9D700AA9451 /* efiController.swift */,
+				4238BFA02B178834002A47FE /* modelDetector.swift */,
+				422D02E82B17A6360090891A /* windowsController.swift */,
+				422D02F02B17C6C40090891A /* hardwareDetector.swift */,
+				422D02F22B17C7090090891A /* scriptsFinder.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -245,6 +350,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				42C249682B14CAFE00926D60 /* Preview Assets.xcassets in Resources */,
+				422D02FB2B17C7C50090891A /* ramspecs.py in Resources */,
+				422D02FC2B17C7C50090891A /* ssdspecs.py in Resources */,
 				42C249652B14CAFE00926D60 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +377,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				422D02E92B17A6360090891A /* windowsController.swift in Sources */,
+				422D030B2B17CA3A0090891A /* NetworkView.swift in Sources */,
+				422D03112B17CA8D0090891A /* StorageView.swift in Sources */,
+				422D03072B17C9A60090891A /* CPUView.swift in Sources */,
 				42C249632B14CAFC00926D60 /* ContentView.swift in Sources */,
+				422D03002B17C8E80090891A /* HardwareListView.swift in Sources */,
 				42AD085D2B14E9D700AA9451 /* efiController.swift in Sources */,
+				422D03132B17CACF0090891A /* SystemView.swift in Sources */,
+				422D02ED2B17C61D0090891A /* SpecsView.swift in Sources */,
+				422D02F32B17C7090090891A /* scriptsFinder.swift in Sources */,
 				42C249612B14CAFC00926D60 /* macintAllApp.swift in Sources */,
+				422D03092B17C9C80090891A /* GraphicView.swift in Sources */,
+				4238BFA12B178834002A47FE /* modelDetector.swift in Sources */,
+				4238BF9D2B1776BF002A47FE /* ConfigureView.swift in Sources */,
+				422D030F2B17CA710090891A /* ScreenView.swift in Sources */,
+				4238BF9F2B1776C9002A47FE /* CreateView.swift in Sources */,
+				422D03022B17C9030090891A /* SoftwareListView.swift in Sources */,
+				422D030D2B17CA550090891A /* RAMView.swift in Sources */,
+				422D02EF2B17C6800090891A /* ToolBarObjects.swift in Sources */,
+				422D02F12B17C6C40090891A /* hardwareDetector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

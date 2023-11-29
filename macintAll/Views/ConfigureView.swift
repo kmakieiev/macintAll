@@ -1,17 +1,13 @@
 //
-//  ContentView.swift
+//  ConfigureView.swift
 //  macintAll
 //
-//  Created by Kyryl Makieiev on 27.11.23.
+//  Created by Kyryl Makieiev on 29.11.23.
 //
 
 import SwiftUI
 
-struct ContentView: View {
-    
-    @State private var password: String = ""
-    @State private var confirmation: String = ""
-    
+struct ConfigureView: View {
     var body: some View {
         ZStack{
             VStack{
@@ -33,5 +29,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ConfigureView()
 }
