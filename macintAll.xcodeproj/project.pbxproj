@@ -26,6 +26,7 @@
 		4238BF9D2B1776BF002A47FE /* ConfigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4238BF9C2B1776BF002A47FE /* ConfigureView.swift */; };
 		4238BF9F2B1776C9002A47FE /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4238BF9E2B1776C9002A47FE /* CreateView.swift */; };
 		4238BFA12B178834002A47FE /* modelDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4238BFA02B178834002A47FE /* modelDetector.swift */; };
+		425D614E2B1A6D400033038F /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 425D614D2B1A6D400033038F /* Zip */; };
 		42AD085D2B14E9D700AA9451 /* efiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD085C2B14E9D700AA9451 /* efiController.swift */; };
 		42C249612B14CAFC00926D60 /* macintAllApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C249602B14CAFC00926D60 /* macintAllApp.swift */; };
 		42C249632B14CAFC00926D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C249622B14CAFC00926D60 /* ContentView.swift */; };
@@ -34,6 +35,8 @@
 		42C249732B14CAFE00926D60 /* macintAllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C249722B14CAFE00926D60 /* macintAllTests.swift */; };
 		42C2497D2B14CAFE00926D60 /* macintAllUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C2497C2B14CAFE00926D60 /* macintAllUITests.swift */; };
 		42C2497F2B14CAFE00926D60 /* macintAllUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C2497E2B14CAFE00926D60 /* macintAllUITestsLaunchTests.swift */; };
+		42CBCA892B1A51AE00C88E18 /* flashDriveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CBCA882B1A51AE00C88E18 /* flashDriveController.swift */; };
+		42CBCA8B2B1A692500C88E18 /* ocDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CBCA8A2B1A692400C88E18 /* ocDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,7 @@
 		4238BF9C2B1776BF002A47FE /* ConfigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureView.swift; sourceTree = "<group>"; };
 		4238BF9E2B1776C9002A47FE /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		4238BFA02B178834002A47FE /* modelDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelDetector.swift; sourceTree = "<group>"; };
+		425D614B2B1A6C880033038F /* Package@swift-5.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Package@swift-5.0.swift"; path = "../../../Downloads/Zip-2.1.2/Package@swift-5.0.swift"; sourceTree = "<group>"; };
 		42AD085C2B14E9D700AA9451 /* efiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = efiController.swift; sourceTree = "<group>"; };
 		42C2495D2B14CAFC00926D60 /* macintAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macintAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C249602B14CAFC00926D60 /* macintAllApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macintAllApp.swift; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 		42C249782B14CAFE00926D60 /* macintAllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macintAllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C2497C2B14CAFE00926D60 /* macintAllUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macintAllUITests.swift; sourceTree = "<group>"; };
 		42C2497E2B14CAFE00926D60 /* macintAllUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macintAllUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42CBCA882B1A51AE00C88E18 /* flashDriveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flashDriveController.swift; sourceTree = "<group>"; };
+		42CBCA8A2B1A692400C88E18 /* ocDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ocDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425D614E2B1A6D400033038F /* Zip in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +181,21 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		425D61482B1A6BCB0033038F /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		425D614A2B1A6C880033038F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				425D614B2B1A6C880033038F /* Package@swift-5.0.swift */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		42C249542B14CAFC00926D60 = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +203,7 @@
 				42C249712B14CAFE00926D60 /* macintAllTests */,
 				42C2497B2B14CAFE00926D60 /* macintAllUITests */,
 				42C2495E2B14CAFC00926D60 /* Products */,
+				425D614A2B1A6C880033038F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +220,7 @@
 		42C2495F2B14CAFC00926D60 /* macintAll */ = {
 			isa = PBXGroup;
 			children = (
+				425D61482B1A6BCB0033038F /* Libraries */,
 				4238BF9B2B177686002A47FE /* Views */,
 				42C2498B2B14CD8E00926D60 /* Modules */,
 				422D02F42B17C71E0090891A /* Scripts */,
@@ -241,6 +265,8 @@
 				422D02E82B17A6360090891A /* windowsController.swift */,
 				422D02F02B17C6C40090891A /* hardwareDetector.swift */,
 				422D02F22B17C7090090891A /* scriptsFinder.swift */,
+				42CBCA882B1A51AE00C88E18 /* flashDriveController.swift */,
+				42CBCA8A2B1A692400C88E18 /* ocDownloader.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -261,6 +287,9 @@
 			dependencies = (
 			);
 			name = macintAll;
+			packageProductDependencies = (
+				425D614D2B1A6D400033038F /* Zip */,
+			);
 			productName = macintAll;
 			productReference = 42C2495D2B14CAFC00926D60 /* macintAll.app */;
 			productType = "com.apple.product-type.application";
@@ -333,6 +362,9 @@
 				Base,
 			);
 			mainGroup = 42C249542B14CAFC00926D60;
+			packageReferences = (
+				425D614C2B1A6D400033038F /* XCRemoteSwiftPackageReference "Zip" */,
+			);
 			productRefGroup = 42C2495E2B14CAFC00926D60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -393,8 +425,10 @@
 				4238BF9D2B1776BF002A47FE /* ConfigureView.swift in Sources */,
 				422D030F2B17CA710090891A /* ScreenView.swift in Sources */,
 				4238BF9F2B1776C9002A47FE /* CreateView.swift in Sources */,
+				42CBCA8B2B1A692500C88E18 /* ocDownloader.swift in Sources */,
 				422D03022B17C9030090891A /* SoftwareListView.swift in Sources */,
 				422D030D2B17CA550090891A /* RAMView.swift in Sources */,
+				42CBCA892B1A51AE00C88E18 /* flashDriveController.swift in Sources */,
 				422D02EF2B17C6800090891A /* ToolBarObjects.swift in Sources */,
 				422D02F12B17C6C40090891A /* hardwareDetector.swift in Sources */,
 			);
@@ -719,6 +753,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		425D614C2B1A6D400033038F /* XCRemoteSwiftPackageReference "Zip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Zip";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		425D614D2B1A6D400033038F /* Zip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 425D614C2B1A6D400033038F /* XCRemoteSwiftPackageReference "Zip" */;
+			productName = Zip;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 42C249552B14CAFC00926D60 /* Project object */;
 }
