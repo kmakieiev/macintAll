@@ -41,7 +41,7 @@ struct SpecsView: View {
         }
         .onAppear(){
             
-            let (ramspecsPath, ssdspecsPath) = findRequiredFiles()
+            let (ramspecsPath, ssdspecsPath, gibmac) = findRequiredFiles()
             
             if let ramspecsPath = ramspecsPath {
                 print("Found ramspecs.py at path: \(ramspecsPath)")

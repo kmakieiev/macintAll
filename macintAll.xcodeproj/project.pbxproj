@@ -23,11 +23,25 @@
 		422D030F2B17CA710090891A /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D030E2B17CA710090891A /* ScreenView.swift */; };
 		422D03112B17CA8D0090891A /* StorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D03102B17CA8C0090891A /* StorageView.swift */; };
 		422D03132B17CACF0090891A /* SystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422D03122B17CACF0090891A /* SystemView.swift */; };
+		4230CB3B2B372C1D00E21D4A /* macosInstallerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230CB3A2B372C1D00E21D4A /* macosInstallerController.swift */; };
 		4238BF9D2B1776BF002A47FE /* ConfigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4238BF9C2B1776BF002A47FE /* ConfigureView.swift */; };
 		4238BF9F2B1776C9002A47FE /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4238BF9E2B1776C9002A47FE /* CreateView.swift */; };
 		4238BFA12B178834002A47FE /* modelDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4238BFA02B178834002A47FE /* modelDetector.swift */; };
+		425494292B37536300CB1D79 /* copyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425494282B37536300CB1D79 /* copyController.swift */; };
 		425D614E2B1A6D400033038F /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 425D614D2B1A6D400033038F /* Zip */; };
+		426AAB0F2B2E08AF0051AD29 /* gibMacOSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426AAB0E2B2E08AF0051AD29 /* gibMacOSController.swift */; };
 		42AD085D2B14E9D700AA9451 /* efiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD085C2B14E9D700AA9451 /* efiController.swift */; };
+		42AE1FA02B36FC7D0078CAE5 /* BuildmacOSInstallApp.command in Resources */ = {isa = PBXBuildFile; fileRef = 42AE1F8D2B36FC7D0078CAE5 /* BuildmacOSInstallApp.command */; };
+		42AE1FA12B36FC7D0078CAE5 /* gibMacOS.command in Resources */ = {isa = PBXBuildFile; fileRef = 42AE1F8E2B36FC7D0078CAE5 /* gibMacOS.command */; };
+		42AE1FA22B36FC7D0078CAE5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 42AE1F8F2B36FC7D0078CAE5 /* LICENSE */; };
+		42AE1FA32B36FC7D0078CAE5 /* BuildmacOSInstallApp.py in Resources */ = {isa = PBXBuildFile; fileRef = 42AE1F902B36FC7D0078CAE5 /* BuildmacOSInstallApp.py */; };
+		42AE1FA42B36FC7D0078CAE5 /* gibMacOS.py in Resources */ = {isa = PBXBuildFile; fileRef = 42AE1F912B36FC7D0078CAE5 /* gibMacOS.py */; };
+		42AE1FA52B36FC7D0078CAE5 /* MakeInstall.py in Resources */ = {isa = PBXBuildFile; fileRef = 42AE1F922B36FC7D0078CAE5 /* MakeInstall.py */; };
+		42AE1FA62B36FC7D0078CAE5 /* MakeInstall.bat in Resources */ = {isa = PBXBuildFile; fileRef = 42AE1F932B36FC7D0078CAE5 /* MakeInstall.bat */; };
+		42AE1FA72B36FC7D0078CAE5 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 42AE1F942B36FC7D0078CAE5 /* Readme.md */; };
+		42AE1FA82B36FC7D0078CAE5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 42AE1F952B36FC7D0078CAE5 /* .gitignore */; };
+		42AE1FA92B36FC7D0078CAE5 /* gibMacOS.bat in Resources */ = {isa = PBXBuildFile; fileRef = 42AE1F962B36FC7D0078CAE5 /* gibMacOS.bat */; };
+		42AE1FB52B36FD7B0078CAE5 /* gibScripts in Resources */ = {isa = PBXBuildFile; fileRef = 42AE1FB42B36FD7B0078CAE5 /* gibScripts */; };
 		42C249612B14CAFC00926D60 /* macintAllApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C249602B14CAFC00926D60 /* macintAllApp.swift */; };
 		42C249632B14CAFC00926D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C249622B14CAFC00926D60 /* ContentView.swift */; };
 		42C249652B14CAFE00926D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C249642B14CAFE00926D60 /* Assets.xcassets */; };
@@ -73,11 +87,25 @@
 		422D030E2B17CA710090891A /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
 		422D03102B17CA8C0090891A /* StorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageView.swift; sourceTree = "<group>"; };
 		422D03122B17CACF0090891A /* SystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemView.swift; sourceTree = "<group>"; };
+		4230CB3A2B372C1D00E21D4A /* macosInstallerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macosInstallerController.swift; sourceTree = "<group>"; };
 		4238BF9C2B1776BF002A47FE /* ConfigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureView.swift; sourceTree = "<group>"; };
 		4238BF9E2B1776C9002A47FE /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		4238BFA02B178834002A47FE /* modelDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelDetector.swift; sourceTree = "<group>"; };
+		425494282B37536300CB1D79 /* copyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = copyController.swift; sourceTree = "<group>"; };
 		425D614B2B1A6C880033038F /* Package@swift-5.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Package@swift-5.0.swift"; path = "../../../Downloads/Zip-2.1.2/Package@swift-5.0.swift"; sourceTree = "<group>"; };
+		426AAB0E2B2E08AF0051AD29 /* gibMacOSController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gibMacOSController.swift; sourceTree = "<group>"; };
 		42AD085C2B14E9D700AA9451 /* efiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = efiController.swift; sourceTree = "<group>"; };
+		42AE1F8D2B36FC7D0078CAE5 /* BuildmacOSInstallApp.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BuildmacOSInstallApp.command; sourceTree = "<group>"; };
+		42AE1F8E2B36FC7D0078CAE5 /* gibMacOS.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gibMacOS.command; sourceTree = "<group>"; };
+		42AE1F8F2B36FC7D0078CAE5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		42AE1F902B36FC7D0078CAE5 /* BuildmacOSInstallApp.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = BuildmacOSInstallApp.py; sourceTree = "<group>"; };
+		42AE1F912B36FC7D0078CAE5 /* gibMacOS.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gibMacOS.py; sourceTree = "<group>"; };
+		42AE1F922B36FC7D0078CAE5 /* MakeInstall.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MakeInstall.py; sourceTree = "<group>"; };
+		42AE1F932B36FC7D0078CAE5 /* MakeInstall.bat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MakeInstall.bat; sourceTree = "<group>"; };
+		42AE1F942B36FC7D0078CAE5 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		42AE1F952B36FC7D0078CAE5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		42AE1F962B36FC7D0078CAE5 /* gibMacOS.bat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gibMacOS.bat; sourceTree = "<group>"; };
+		42AE1FB42B36FD7B0078CAE5 /* gibScripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gibScripts; sourceTree = "<group>"; };
 		42C2495D2B14CAFC00926D60 /* macintAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macintAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C249602B14CAFC00926D60 /* macintAllApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macintAllApp.swift; sourceTree = "<group>"; };
 		42C249622B14CAFC00926D60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,13 +147,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		422D02F42B17C71E0090891A /* Scripts */ = {
+		422D02F42B17C71E0090891A /* Project Scripts */ = {
 			isa = PBXGroup;
 			children = (
 				422D02F92B17C7C50090891A /* ramspecs.py */,
 				422D02FA2B17C7C50090891A /* ssdspecs.py */,
 			);
-			path = Scripts;
+			path = "Project Scripts";
 			sourceTree = "<group>";
 		};
 		422D02FD2B17C7FE0090891A /* SpecsViews */ = {
@@ -196,6 +224,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		42AE1F8C2B36FC7D0078CAE5 /* gibMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				42AE1F8D2B36FC7D0078CAE5 /* BuildmacOSInstallApp.command */,
+				42AE1F8E2B36FC7D0078CAE5 /* gibMacOS.command */,
+				42AE1F8F2B36FC7D0078CAE5 /* LICENSE */,
+				42AE1F902B36FC7D0078CAE5 /* BuildmacOSInstallApp.py */,
+				42AE1F912B36FC7D0078CAE5 /* gibMacOS.py */,
+				42AE1F922B36FC7D0078CAE5 /* MakeInstall.py */,
+				42AE1F932B36FC7D0078CAE5 /* MakeInstall.bat */,
+				42AE1F942B36FC7D0078CAE5 /* Readme.md */,
+				42AE1F952B36FC7D0078CAE5 /* .gitignore */,
+				42AE1F962B36FC7D0078CAE5 /* gibMacOS.bat */,
+				42AE1FB42B36FD7B0078CAE5 /* gibScripts */,
+			);
+			name = gibMacOS;
+			path = ../../../../../Downloads/gibMacOS;
+			sourceTree = "<group>";
+		};
 		42C249542B14CAFC00926D60 = {
 			isa = PBXGroup;
 			children = (
@@ -223,7 +270,7 @@
 				425D61482B1A6BCB0033038F /* Libraries */,
 				4238BF9B2B177686002A47FE /* Views */,
 				42C2498B2B14CD8E00926D60 /* Modules */,
-				422D02F42B17C71E0090891A /* Scripts */,
+				422D02F42B17C71E0090891A /* Project Scripts */,
 				42C249602B14CAFC00926D60 /* macintAllApp.swift */,
 				42C249642B14CAFE00926D60 /* Assets.xcassets */,
 				42C249692B14CAFE00926D60 /* macintAll.entitlements */,
@@ -260,6 +307,7 @@
 		42C2498B2B14CD8E00926D60 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				42AE1F8C2B36FC7D0078CAE5 /* gibMacOS */,
 				42AD085C2B14E9D700AA9451 /* efiController.swift */,
 				4238BFA02B178834002A47FE /* modelDetector.swift */,
 				422D02E82B17A6360090891A /* windowsController.swift */,
@@ -267,6 +315,9 @@
 				422D02F22B17C7090090891A /* scriptsFinder.swift */,
 				42CBCA882B1A51AE00C88E18 /* flashDriveController.swift */,
 				42CBCA8A2B1A692400C88E18 /* ocDownloader.swift */,
+				426AAB0E2B2E08AF0051AD29 /* gibMacOSController.swift */,
+				4230CB3A2B372C1D00E21D4A /* macosInstallerController.swift */,
+				425494282B37536300CB1D79 /* copyController.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -381,9 +432,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AE1FA32B36FC7D0078CAE5 /* BuildmacOSInstallApp.py in Resources */,
+				42AE1FB52B36FD7B0078CAE5 /* gibScripts in Resources */,
+				42AE1FA62B36FC7D0078CAE5 /* MakeInstall.bat in Resources */,
+				42AE1FA02B36FC7D0078CAE5 /* BuildmacOSInstallApp.command in Resources */,
+				42AE1FA92B36FC7D0078CAE5 /* gibMacOS.bat in Resources */,
+				42AE1FA12B36FC7D0078CAE5 /* gibMacOS.command in Resources */,
+				42AE1FA22B36FC7D0078CAE5 /* LICENSE in Resources */,
+				42AE1FA42B36FC7D0078CAE5 /* gibMacOS.py in Resources */,
+				42AE1FA72B36FC7D0078CAE5 /* Readme.md in Resources */,
+				42AE1FA82B36FC7D0078CAE5 /* .gitignore in Resources */,
 				42C249682B14CAFE00926D60 /* Preview Assets.xcassets in Resources */,
 				422D02FB2B17C7C50090891A /* ramspecs.py in Resources */,
 				422D02FC2B17C7C50090891A /* ssdspecs.py in Resources */,
+				42AE1FA52B36FC7D0078CAE5 /* MakeInstall.py in Resources */,
 				42C249652B14CAFE00926D60 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				422D02E92B17A6360090891A /* windowsController.swift in Sources */,
+				425494292B37536300CB1D79 /* copyController.swift in Sources */,
 				422D030B2B17CA3A0090891A /* NetworkView.swift in Sources */,
 				422D03112B17CA8D0090891A /* StorageView.swift in Sources */,
 				422D03072B17C9A60090891A /* CPUView.swift in Sources */,
@@ -431,6 +494,8 @@
 				42CBCA892B1A51AE00C88E18 /* flashDriveController.swift in Sources */,
 				422D02EF2B17C6800090891A /* ToolBarObjects.swift in Sources */,
 				422D02F12B17C6C40090891A /* hardwareDetector.swift in Sources */,
+				4230CB3B2B372C1D00E21D4A /* macosInstallerController.swift in Sources */,
+				426AAB0F2B2E08AF0051AD29 /* gibMacOSController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -195,7 +195,7 @@ struct ConfigureView: View {
                             .offset(y: 18.0)
                             
                             Button{
-                                unmountPartition(partitionID: findEfi())
+                                
                             } label: {
                                 ZStack{
                                     RoundedRectangle(cornerRadius: 5)

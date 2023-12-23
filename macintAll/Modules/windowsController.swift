@@ -109,7 +109,7 @@ func showConfigureWindow() {
 }
 
 func showCreateWindow() {
-    let windowController = ConfigureWindowController()
+    let windowController = CreateWindowController()
     windowController.showWindow(nil)
     windowController.window?.center()
 }

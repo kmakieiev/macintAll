@@ -26,7 +26,7 @@ struct ContentView: View {
             HStack{
                 VStack{
                     Button{
-                        showCreateWindow()
+                        showConfigureWindow()
                     } label: {
                         ZStack{
                             RoundedRectangle(cornerRadius: 25)
